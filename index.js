@@ -44,7 +44,7 @@ const channelId = '';
 
 async function login() {
   try {
-    await client.login(process.env.TOKEN);
+    await client.login("MTIxNjQyNzM0MDc3MTYyNzE4MA.Gc_Ri3.qxbbBtg97BqyCxUQrPJD4bWiPlBEjVJhCoydls");
     console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
